@@ -76,7 +76,7 @@ def display_log_counts(counts: Dict[str, int]) -> None:
     print("-" * 18 + "-|-" + "-" * 9)
 
     for level, count in counts.items():
-        print(f"{level:<18} | {count:<9}")
+        print(f"{level:<18} | {count}")
 
 
 def main() -> None:
